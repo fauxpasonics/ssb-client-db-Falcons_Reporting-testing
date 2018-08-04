@@ -1,0 +1,19 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+
+
+
+
+CREATE VIEW [Prodcopy].[vw_Account] AS
+ 
+  
+SELECT * FROM ProdCopy.Account
+WHERE 1=1 
+
+
+
+
+
+GO
